@@ -14,7 +14,7 @@ public class PlayState extends GameState {
 	public PlayState(GameStateManager gsm) {
 		super(gsm);
 	}
-	
+	//implements methods from GameStateManager
 	public void init() {
 		
 		sr = new ShapeRenderer();

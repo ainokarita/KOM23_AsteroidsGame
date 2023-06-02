@@ -24,7 +24,7 @@ public class GameStateManager {
 			gameState = new PlayState(this);
 		}
 	}
-	
+	//updating the ucrrent gamestate
 	public void update(float dt) {
 		gameState.update(dt);
 	}

@@ -6,6 +6,7 @@ import com.badlogic.gdx.Input.Keys;
 public class GameInputProcessor extends InputAdapter {
 	
 	public boolean keyDown(int k) {
+		//true means the key is DOWN, false is UP
 		if(k == Keys.UP) {
 			GameKeys.setKey(GameKeys.UP, true);
 		}
@@ -27,6 +28,7 @@ public class GameInputProcessor extends InputAdapter {
 		if(k == Keys.SPACE) {
 			GameKeys.setKey(GameKeys.SPACE, true);
 		}
+		//keyboard has two SHIFT keys, therefore left and right.
 		if(k == Keys.SHIFT_LEFT || k == Keys.SHIFT_RIGHT) {
 			GameKeys.setKey(GameKeys.SHIFT, true);
 		}

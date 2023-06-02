@@ -33,7 +33,7 @@ public class GameKeys {
 	public static boolean isDown(int k) {
 		return keys[k];
 	}
-	
+	//if the current state of the key is down, and the previous state was up
 	public static boolean isPressed(int k) {
 		return keys[k] && !pkeys[k];
 	}

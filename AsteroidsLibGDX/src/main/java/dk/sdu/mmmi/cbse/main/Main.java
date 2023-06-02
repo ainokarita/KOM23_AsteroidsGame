@@ -14,7 +14,7 @@ public class Main {
 		cfg.height = 400;
 		cfg.useGL30 = false;
 		cfg.resizable = false;
-		
+		// cfg = configuration
 		new LwjglApplication(new Game(), cfg);
 		
 	}

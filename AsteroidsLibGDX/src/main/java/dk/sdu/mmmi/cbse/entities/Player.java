@@ -6,20 +6,21 @@ import com.badlogic.gdx.math.MathUtils;
 import dk.sdu.mmmi.cbse.main.Game;
 
 public class Player extends SpaceObject {
-
+    //movement directions
     private boolean left;
     private boolean right;
     private boolean up;
-
+    //
     private float maxSpeed;
     private float acceleration;
     private float deceleration;
-
+    //initiating Player with the Constructor
     public Player() {
 
         x = Game.WIDTH / 2;
         y = Game.HEIGHT / 2;
 
+        //in pixels/second
         maxSpeed = 300;
         acceleration = 200;
         deceleration = 10;
@@ -33,12 +34,13 @@ public class Player extends SpaceObject {
     }
 
     private void setShape() {
+        //player triangle shape definition
         shapex[0] = x + MathUtils.cos(radians) * 8;
         shapey[0] = y + MathUtils.sin(radians) * 8;
 
         shapex[1] = x + MathUtils.cos(radians - 4 * 3.1415f / 5) * 8;
         shapey[1] = y + MathUtils.sin(radians - 4 * 3.1145f / 5) * 8;
-
+        //opposite of the first line [0]
         shapex[2] = x + MathUtils.cos(radians + 3.1415f) * 5;
         shapey[2] = y + MathUtils.sin(radians + 3.1415f) * 5;
 
