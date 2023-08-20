@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/AsteroidsGame/Asteroids/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/AsteroidsGame/Asteroids/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/AsteroidsGame/Collision/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/AsteroidsGame/Collision/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/AsteroidsGame/Common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/AsteroidsGame/Core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/AsteroidsGame/Enemy/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/AsteroidsGame/Enemy/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/AsteroidsGame/Player/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/AsteroidsGame/Player/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
